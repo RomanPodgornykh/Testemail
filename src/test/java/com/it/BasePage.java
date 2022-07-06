@@ -18,8 +18,8 @@ public class BasePage {
         driver.manage().window().maximize();
 
 
-        driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[3]/div[2]/div[1]/div[3]/form/ul/li[1]/p[2]/input")).sendKeys("buckley1");
-        driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[3]/div[2]/div[1]/div[3]/form/ul/li[1]/input")).sendKeys("Tester11");
+        driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[3]/div[2]/div[1]/div[3]/form/ul/li[1]/p[2]/input")).sendKeys("mailname");
+        driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[3]/div[2]/div[1]/div[3]/form/ul/li[1]/input")).sendKeys("pass");
         driver.findElement(By.xpath("/html/body/div[3]/div[3]/div[3]/div[2]/div[1]/div[3]/form/p/input")).click();  //логин в почту
         driver.findElement(By.xpath("/html/body/div[1]/div[6]/div[1]/div[1]/p/a")).click();
         driver.findElement(By.xpath("//*[@id=\"to\"]")).sendKeys("testoff1@protonmail.com");
